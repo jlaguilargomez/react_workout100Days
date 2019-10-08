@@ -1,9 +1,9 @@
+// Libraries
 import React from 'react';
-import './App.css';
 import Routes from './components/Routes';
 
-
-import exit from './media/icons/exit.png'
+// Style
+import './App.css';
 
 function App() {
   return (

@@ -1,11 +1,14 @@
+// Libraries
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
+// Components
 import StartTest from './StartTest';
 import Description from './Description';
 import HowTo from './HowTo'
 
+// Media
 import exit from '../media/icons/exit.png'
 
 class Routes extends Component {
