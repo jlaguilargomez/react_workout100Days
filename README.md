@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Proyecto fin de Curso Desarrollo Front-End
 
-##Figma:
+#Figma:#
 
 - Diseño tablero: https://www.figma.com/file/92xLdswgKoIZx8bmNFkazh/Test-inicial-Esther
 - Prototype: https://www.figma.com/proto/92xLdswgKoIZx8bmNFkazh/Test-inicial-Esther?node-id=1%3A2&scaling=scale-down
