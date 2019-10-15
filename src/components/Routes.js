@@ -4,12 +4,14 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 // Components
-import StartTest from './StartTest';
-import Description from './Description';
-import HowTo from './HowTo'
+import StartTest from './Test/StartTest';
+import Description from './Test/Description';
+import Cover from './intro/Cover';
+import ToDo from './Test/ToDo';
 
 // Media
 import exit from '../media/icons/exit.png'
+
 
 class Routes extends Component {
     render() {
@@ -19,10 +21,10 @@ class Routes extends Component {
                     <Link to="/"><img className="exit-btn" src={exit} alt="exit icon" /></Link>
                 </div>
                 <Switch>
-                    <Route exact path="/" component={StartTest}></Route>
-                    <Route exact path="/home" component={StartTest}></Route>
-                    <Route exact path="/description" component={Description}></Route>
-                    <Route exact path="/howTo" component={HowTo}></Route>
+                    <Route exact path="/" component={Cover}></Route>
+                    <Route exact path="/test/start" component={StartTest}></Route>
+                    <Route exact path="/test/description" component={Description}></Route>
+                    <Route exact path="/test/todo" component={ToDo}></Route>
                 </Switch>
             </BrowserRouter>
         );
