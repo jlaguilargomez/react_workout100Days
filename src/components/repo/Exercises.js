@@ -4,24 +4,24 @@ const Exercises = {
         description: 'sentadilla normal',
         type: 'Leg',
         level: 2,
-        img: '/Users/jlaguilar/Documents/Develop/GitHub/react_workout100days/src/media/images/exercisesLeg/squat01.jpg',
+        img: 'https://gethealthyu.com/wp-content/uploads/2014/09/Basic-Squat_Exercise.jpg',
         points: 300,
     },
 
     pushUp01: {
-        name: 'flexiones en suelo',
+        id: 'flexiones en suelo',
         description: 'flexiones sin apoyar las rodillas, apertura igual al ancho entre hombros',
         type: 'Pull',
         level: 2,
-        img: '../../media/images/exercisesPush/pushUp01.jpg',
+        img: 'http://upl.stack.com/wp-content/uploads/2012/10/Flex_o001_2_-e1350409352620.jpg',
         points: 300,
     },
 
     abd01: {
-        name: 'abdominal medio',
+        id: 'abdominal medio',
         type: 'Abd',
         level: 1,
-        img: '../../media/images/exercisesAbd/abd01.jpg',
+        img: 'https://www.sabervivirtv.com/medio/2018/06/26/1_84b50bc8_1200x710.jpg',
         points: 100,
 
     }

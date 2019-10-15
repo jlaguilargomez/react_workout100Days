@@ -15,11 +15,11 @@ class Description extends Component {
     render() {
 
         return (
-            <div className="framework--white">
+            <div className="frame__general frame--white flex__column">
                 <div id="" className="content">
 
-                    <p>¡ Ponte ropa de entrenamiento y <strong>prepárate !</strong></p>
-                    <p>Vas a hacer <strong>tres ejercicios sencillos durante 1 minuto cada uno</strong> y, en función de las repeticiones que seas capaz de hacer <strong>te daremos tu punto de partida</strong> para el entrenamiento de la aplicación.</p>
+                    <p className="">¡ Ponte ropa de entrenamiento y <strong>prepárate !</strong></p>
+                    <p>Vas a hacer <strong>tres ejercicios sencillos</strong> y, en función de las repeticiones que seas capaz de hacer <strong>te daremos tu punto de partida</strong>.</p>
                         
 
                     <img src={exercisesGroup} alt="grupo de entrenamiento" />

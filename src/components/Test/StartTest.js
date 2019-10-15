@@ -14,8 +14,8 @@ class StartTest extends Component {
     render() {
 
         return (
-            <div className="framework--white">
-                <div id="cod#01_startTest" className="content">
+            <div className="frame__general frame--white flex__column">
+                <div id="" className="content">
                     <h2>Prueba de nivel</h2>
                     <img src={trainingStart} alt="inicio test" />
                     <p>Comienza nuestro test para valorar tu nivel y poder darte ejercicios personalizados.</p>

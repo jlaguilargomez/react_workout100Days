@@ -11,7 +11,6 @@
 }
 
 html{
-  
   font-size:22px;
   font-weight: 300;
 }
@@ -23,12 +22,23 @@ body{
   color:#4a4a4a;
 }
 
+h4{
+  text-transform: uppercase;
+  font-size:0.8rem;
+  font-weight: 700;
+}
+
 strong{
   font-weight: bold;
 }
 
+span{
+  font-size: 0.8rem;
+  font-weight: 100;
+}
 
-/* --- Estilos específicos ---- */
+
+/* --- Specific styles --- */
 
 .title{
   font-family: 'Permanent Marker', cursive;
@@ -42,37 +52,29 @@ strong{
   right:8vw;
 }
 
-/* Framework */
+/* --- Frame --- */
 
-.framework--white{
-  display:flex;
-  align-items:center;
+.frame__general{
   width: 90vw;
   height:90vh;
+  margin:5vh 5vw;
+}
+
+.frame--white{
   background-color:white;
-  margin:5vh 5vw;
-  border-radius:10px;
-  box-shadow: 2px 2px 8px #888888;
+  border-radius:5px;
+  padding:10px;
+  box-shadow: 0px 0px 2px 2px #888888;
 }
 
-.framework--invisible{
+.content{
   display:flex;
-  align-items:center;
-  justify-content: space-between;
-  width: 90vw;
-  height:90vh;
-  margin:5vh 5vw;
-}
-
-.frame-on{
-  display:flex;
-  align-items:center;
-  color:#4a4a4a;
-  
-}
-
-.frame-off{
-  display:none;
+  flex-direction:column;
+  align-items: center;
+  justify-content:space-between;
+  width:80%;
+  height:85%;
+  margin: 0 auto;
 }
 
 
@@ -98,20 +100,6 @@ strong{
   color:#FD5800;
 }
 
-
-.content{
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
-  align-content: space-around;
-  width:80%;
-  height:80%;
-  margin: 0 auto;
-}
-
-.text--red{
-  color: #FC0201;
-}
 .icon{
   display:flex;
   align-self:flex-end;
@@ -121,35 +109,69 @@ strong{
   margin:10px;
 }
 
-.description{
+/* --- Flexbox --- */
+
+.flex__row{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex__column{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: space-around;
+}
+
+
+/* --- Media --- */
+
+.img--small{
+  width:70px;
+  height:70px;
+}
+
+.question-box{
+  transform: scale(0.8);
+  margin:0 auto;
+}
+
+
+/* --- Color Styles --- */
+.text--red{
+  color: #FC0201;
+}
+
+
+
+/* .description{
   display:flex;
   flex-direction:column;
   justify-content:center;
   height:100%;
-}
+} */
 
-.description div{
+/* .description div{
   display:flex;
   flex-direction:column;
   align-items: center;
   justify-content:space-evenly;
-}
+} */
 
-.description p{
+/* .description p{
   text-align: center;
   margin:10%;
-}
+} */
 
 
 
-.question-box{
-  width:15%;
-  margin:0 auto;
-}
+/* --- Others --- */
 
 .exercise-box{
-  width:70%;
-  margin:0 auto;
+  width:100%;
+  margin:20px auto;
 }
 
 /* --- Modal Styles --- */

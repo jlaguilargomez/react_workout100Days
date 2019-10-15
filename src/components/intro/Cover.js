@@ -11,7 +11,7 @@ import logo_grande from '../../media/images/logo_grande.png'
 class Cover extends Component {
     render() {
         return (
-            <div className="framework--invisible">
+            <div className="frame__general flex__column">
                 <div>
                     <p class="text--red">¿Cómo funciona?</p>
                     <img src={logo_grande} />
