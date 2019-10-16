@@ -6,9 +6,6 @@ import { Link } from 'react-router-dom';
 // Component
 import Button from '../small/Button';
 
-// Media
-import squat from '../../media/images/squat.png'
-
 
 class Description extends Component {
 
@@ -23,7 +20,7 @@ class Description extends Component {
                         
 
                     <img src={exercisesGroup} alt="grupo de entrenamiento" />
-                    <Link to="/test/todo"><Button style="btn btn--red" value="¡ Estoy preparado !" /></Link>
+                    <Link to="/test/todo"><Button format="btn btn--red" value="¡ Estoy preparado !" /></Link>
 
                 </div>
 

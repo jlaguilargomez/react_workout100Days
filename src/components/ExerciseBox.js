@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
 // Components
-import Exercises from '../repo/Exercises';
+import Exercises from './repo/Exercises';
 
 
 // Media
-import interrogation from '../../media/icons/interrogation.png'
+import interrogation from '../media/icons/interrogation.png'
 
 class ExerciseBox extends Component {
 
@@ -14,9 +14,9 @@ class ExerciseBox extends Component {
         const exercise = Exercises[this.props.id]
 
         return(
-            <div className="exercise-box flex__row frame--white">
-                <img className="img--small" src={exercise.img}></img>
-                <div className="flex__column">
+            <div className="flex__row frame--white exercise-box">
+                <img className="img--small" src={exercise.img} alt={exercise.id}></img>
+                <div className="flex__column exercise-box__text">
                     <h4>{exercise.id}</h4>
                     <div className="flex__row">
                         <span>Repeticiones</span>
@@ -27,7 +27,7 @@ class ExerciseBox extends Component {
                         <span>{this.props.time}"</span>
                     </div>
                 </div>
-                <img className="question" src={interrogation} alt="interrogation" />
+                <img className="question-box" src={interrogation} alt="interrogation" />
             </div>
 
         

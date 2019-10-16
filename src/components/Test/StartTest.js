@@ -19,7 +19,7 @@ class StartTest extends Component {
                     <h2>Prueba de nivel</h2>
                     <img src={trainingStart} alt="inicio test" />
                     <p>Comienza nuestro test para valorar tu nivel y poder darte ejercicios personalizados.</p>
-                    <Link to="/test/description"><Button style="btn btn--red" value="¡ Genial !" /></Link>
+                    <Link to="/test/description"><Button format="btn btn--red" value="¡ Genial !" /></Link>
                 </div>
             </div>
             
